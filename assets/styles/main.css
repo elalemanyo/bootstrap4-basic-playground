@@ -1,4 +1,10 @@
 .fakeimg {
   height: 200px;
-  background: #aaa;
+  border-radius: 15px;
+  background: radial-gradient(ellipse at 0% 100%, #10bf9d, transparent), radial-gradient(ellipse at 50% 0%, #ff0056, transparent), radial-gradient(ellipse at 100% 50%, #171717, transparent);
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
